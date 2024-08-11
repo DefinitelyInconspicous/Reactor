@@ -17,59 +17,59 @@
 </head>
 <body>
     <a-scene>
-        <!-- Camera positioned near the core -->
+        
         <a-entity 
             camera 
             wasd-controls="fly: true" 
-            position="0 2 8" 
+            position="0 10 10" 
             look-controls 
             keyboard-controls="acceleration:200"
             fog="type: none"
         ></a-entity>
 
-        <!-- Reactor Core with Transparent Box -->
+        
         <a-entity position="0 1 -5">
-            <!-- Fuel Rods -->
+            
             <a-cylinder color="#BDC3C7" position="-3 1 -5" radius="0.3" height="6"></a-cylinder>
             <a-cylinder color="#BDC3C7" position="-1.5 1 -5" radius="0.3" height="6"></a-cylinder>
             <a-cylinder color="#BDC3C7" position="0 1 -5" radius="0.3" height="6"></a-cylinder>
             <a-cylinder color="#BDC3C7" position="1.5 1 -5" radius="0.3" height="6"></a-cylinder>
             <a-cylinder color="#BDC3C7" position="3 1 -5" radius="0.3" height="6"></a-cylinder>
-            <!-- More Rods with Rotation -->
+            
             <a-cylinder color="#BDC3C7" position="-3 1 -3" radius="0.3" height="6" rotation="0 45 0"></a-cylinder>
             <a-cylinder color="#BDC3C7" position="-1.5 1 -3" radius="0.3" height="6" rotation="0 45 0"></a-cylinder>
             <a-cylinder color="#BDC3C7" position="0 1 -3" radius="0.3" height="6" rotation="0 45 0"></a-cylinder>
             <a-cylinder color="#BDC3C7" position="1.5 1 -3" radius="0.3" height="6" rotation="0 45 0"></a-cylinder>
             <a-cylinder color="#BDC3C7" position="3 1 -3" radius="0.3" height="6" rotation="0 45 0"></a-cylinder>
 
-            <!-- Transparent Reactor Core Box -->
+            
             <a-box color="#2C3E50" opacity="0.5" position="0 1 -5" depth="7" height="7" width="7"></a-box>
 
-            <!-- Pipes and Conduits -->
+            
             <a-cylinder color="#C0392B" position="-4 1 -5" radius="0.2" height="0.5" rotation="0 90 0"></a-cylinder>
             <a-cylinder color="#C0392B" position="4 1 -5" radius="0.2" height="0.5" rotation="0 90 0"></a-cylinder>
             <a-cylinder color="#C0392B" position="0 1 -7" radius="0.2" height="0.5" rotation="90 0 0"></a-cylinder>
             <a-cylinder color="#C0392B" position="0 1 -3" radius="0.2" height="0.5" rotation="90 0 0"></a-cylinder>
         </a-entity>
 
-        <!-- Detailed Control Room with Consoles and Panels -->
+        
         <a-entity position="0 1 -10">
             <a-box color="#2C3E50" depth="20" height="5" width="20"></a-box>
 
-            <!-- Detailed Control Consoles -->
+            
             <a-entity position="6 1.5 -10">
                 <a-box color="#2980B9" depth="1" height="2" width="3"></a-box>
 
-                <!-- Monitors -->
+                
                 <a-box color="#1ABC9C" position="0 0.8 0.05" depth="0.1" height="1" width="2.8"></a-box>
                 <a-text value="Mon" color="#ffffff" position="0 0.8 0.06" align="center" width="2.8"></a-text>
 
-                <!-- Buttons -->
+                
                 <a-box color="#3498DB" position="1.1 0.5 0" depth="0.1" height="0.2" width="0.3"></a-box>
                 <a-box color="#3498DB" position="1.1 0.3 0" depth="0.1" height="0.2" width="0.3"></a-box>
                 <a-box color="#3498DB" position="1.1 0.1 0" depth="0.1" height="0.2" width="0.3"></a-box>
 
-                <!-- Levers -->
+                
                 <a-box color="#ECF0F1" position="-1 0.5 0.1" depth="0.1" height="0.2" width="0.1"></a-box>
                 <a-box color="#BDC3C7" position="-1 0.6 0.1" depth="0.1" height="0.2" width="0.05"></a-box>
             </a-entity>
@@ -77,16 +77,16 @@
             <a-entity position="0 1.5 -10">
                 <a-box color="#2980B9" depth="1" height="2" width="3"></a-box>
 
-                <!-- Monitors -->
+                
                 <a-box color="#1ABC9C" position="0 0.8 0.05" depth="0.1" height="1" width="2.8"></a-box>
                 <a-text value="Mon" color="#ffffff" position="0 0.8 0.06" align="center" width="2.8"></a-text>
 
-                <!-- Buttons -->
+
                 <a-box color="#3498DB" position="1.1 0.5 0" depth="0.1" height="0.2" width="0.3"></a-box>
                 <a-box color="#3498DB" position="1.1 0.3 0" depth="0.1" height="0.2" width="0.3"></a-box>
                 <a-box color="#3498DB" position="1.1 0.1 0" depth="0.1" height="0.2" width="0.3"></a-box>
 
-                <!-- Levers -->
+
                 <a-box color="#ECF0F1" position="-1 0.5 0.1" depth="0.1" height="0.2" width="0.1"></a-box>
                 <a-box color="#BDC3C7" position="-1 0.6 0.1" depth="0.1" height="0.2" width="0.05"></a-box>
             </a-entity>
@@ -94,36 +94,36 @@
             <a-entity position="-6 1.5 -10">
                 <a-box color="#2980B9" depth="1" height="2" width="3"></a-box>
 
-                <!-- Monitors -->
+                
                 <a-box color="#1ABC9C" position="0 0.8 0.05" depth="0.1" height="1" width="2.8"></a-box>
                 <a-text value="Mon" color="#ffffff" position="0 0.8 0.06" align="center" width="2.8"></a-text>
 
-                <!-- Buttons -->
+                
                 <a-box color="#3498DB" position="1.1 0.5 0" depth="0.1" height="0.2" width="0.3"></a-box>
                 <a-box color="#3498DB" position="1.1 0.3 0" depth="0.1" height="0.2" width="0.3"></a-box>
                 <a-box color="#3498DB" position="1.1 0.1 0" depth="0.1" height="0.2" width="0.3"></a-box>
 
-                <!-- Levers -->
+                
                 <a-box color="#ECF0F1" position="-1 0.5 0.1" depth="0.1" height="0.2" width="0.1"></a-box>
                 <a-box color="#BDC3C7" position="-1 0.6 0.1" depth="0.1" height="0.2" width="0.05"></a-box>
             </a-entity>
         </a-entity>
 
-        <!-- Ground and Ceiling -->
+        
         <a-plane color="#BDC3C7" rotation="-90 0 0" width="50" height="50"></a-plane>
         <a-box color="#34495E" position="0 10 0" width="50" height="0.5" depth="50"></a-box>
 
-        <!-- Walls -->
+        
         <a-box color="#34495E" position="0 5 -25" width="50" height="10" depth="0.5"></a-box>
         <a-box color="#34495E" position="-25 5 0" rotation="0 90 0" width="50" height="10" depth="0.5"></a-box>
         <a-box color="#34495E" position="25 5 0" rotation="0 90 0" width="50" height="10" depth="0.5"></a-box>
         <a-box color="#34495E" position="0 5 25" width="50" height="10" depth="0.5"></a-box>
 
-        <!-- Lighting -->
+        
         <a-light type="ambient" color="#ffffff" intensity="0.5"></a-light>
         <a-light type="directional" intensity="0.7" position="1 10 2"></a-light>
 
-        <!-- Reactor Information Board -->
+        
         <a-plane color="#2C3E50" position="8 2 -12" rotation="0 -90 0" width="4" height="2">
             <a-text value="Reactor Core" color="#ffffff" position="0 0.5 0"></a-text>
             <a-text value="Status: Active" color="#ffffff" position="0 -0.5 0"></a-text>
